@@ -7991,16 +7991,48 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MaxieMtChimney[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Tiana[] = {
+static const struct TrainerMonItemCustomMoves sParty_Tiana[] = {
     {
-    .iv = 0,
-    .lvl = 4,
-    .species = SPECIES_ZIGZAGOON,
+    .iv = 255,
+    .lvl = 6,
+    .species = SPECIES_SMOOCHUM,
+    .helditem = ITEM_SHELL_BELL,
+    .moves = {MOVE_LICK, MOVE_LOVELY_KISS, MOVE_DREAM_EATER, MOVE_ICY_WIND}
     },
     {
-    .iv = 0,
+    .iv = 169,
     .lvl = 4,
-    .species = SPECIES_SHROOMISH,
+    .species = SPECIES_MACHAMP,
+    .helditem = ITEM_SCOPE_LENS,
+    .moves = {MOVE_LOW_KICK, MOVE_SHADOW_PUNCH, MOVE_ROCK_TOMB, MOVE_FOCUS_ENERGY}
+    },
+    {
+    .iv = 169,
+    .lvl = 4,
+    .species = SPECIES_TENTACRUEL,
+    .helditem = ITEM_LEFTOVERS,
+    .moves = {MOVE_TOXIC, MOVE_WATERFALL, MOVE_SLUDGE_BOMB, MOVE_GIGA_DRAIN}
+    },
+    {
+    .iv = 234,
+    .lvl = 5,
+    .species = SPECIES_GENGAR,
+    .helditem = ITEM_CHOICE_BAND,
+    .moves = {MOVE_LICK, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 234,
+    .lvl = 5,
+    .species = SPECIES_LICKITUNG,
+    .helditem = ITEM_BERRY_JUICE,
+    .moves = {MOVE_LICK, MOVE_SMELLINGSALTS, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 234,
+    .lvl = 6,
+    .species = SPECIES_GARDEVOIR,
+    .helditem = ITEM_SALAC_BERRY,
+    .moves = {MOVE_LOVELY_KISS, MOVE_DREAM_EATER, MOVE_LOW_KICK, MOVE_TAIL_GLOW}
     }
 };
 
